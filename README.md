@@ -1,70 +1,91 @@
-# Getting Started with Create React App
+Solar Company Website – React Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome! This is a simple, clean, and fully responsive website I built for a fictional solar installation company using React. The goal of this project was to practice building modern frontend UIs, add some animation, and implement a working contact form using Web3Forms – all without a custom backend.
 
-## Available Scripts
+Live Demo : https://solar-dummy-website.netlify.app/
 
-In the project directory, you can run:
+About This Project
 
-### `npm start`
+I wanted to create something that looks like a real company website – something a recruiter or mentor could check out and say, “Okay, this person understands React basics and project structure.”
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The site includes:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+A homepage
 
-### `npm test`
+Service section
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Review/testimonial section
 
-### `npm run build`
+Call-to-action section
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+A contact form that actually works
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+All pages are built using React components and routed using React Router , clean frontend code and a real working form with Web3Forms.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Features
 
-### `npm run eject`
+✅ Fully responsive design (mobile + desktop)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+✅ React component-based architecture
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+✅ Routing with React Router
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+✅ Mobile hamburger menu navigation
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+✅ Live contact form using Web3Forms API
 
-## Learn More
+✅ Clean, simple CSS styling
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Tech Stack
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+React 18
 
-### Code Splitting
+React Router DOM
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Web3Forms API
 
-### Analyzing the Bundle Size
+CSS
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Netlify (for deployment)
 
-### Making a Progressive Web App
+Git & GitHub
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+solar-dummy-website/
+├── public/
+├── src/
+│   ├── Component/
+│   │   ├── Home.jsx
+│   │   ├── Nav.jsx
+│   │   ├── Section.jsx
+│   │   ├── Service.jsx
+│   │   ├── Review.jsx
+│   │   ├── Cta.jsx
+│   │   └── Contact.jsx
+│   ├── style/
+│   └── App.js
+├── package.json
+└── README.md
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+ What I Learned
 
-### Deployment
+How to structure and build a React app from scratch
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+How routing works in React using react-router-dom
 
-### `npm run build` fails to minify
+How to create reusable components
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+How to integrate a working form with Web3Forms
+
+How to deploy a frontend project using Netlify
+
+How to write clean and organized code
+
+Feedback or Suggestions?
+
+If you're a developer, recruiter, or just someone with feedback, I’d love to hear your thoughts!
+
+Made with ❤️ by Harsh Raj
+🔗 Live Site: solar-dummy-website.netlify.app
+🐙 GitHub Repo: github.com/harsh-raj111/solar-dummy-website
+linkedin : https://www.linkedin.com/in/harsh-raj-335b94222?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
