@@ -1,0 +1,118 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-size: 16px;
+}
+.navlink {
+  color: rgb(0, 0, 0); /* or any highlight color */
+  font-weight: bold;
+  text-decoration: none;
+}
+.nav{
+    width:100%;
+    height:10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ham-nav{
+  display: none;
+}
+.NavLogo{
+    width:15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.LogoName{
+    font-size: 1.3em;
+}
+.nav-bar{
+  
+    width:50%;
+   
+}
+ul,li{
+  display: flex; 
+  justify-content: space-evenly; 
+  align-items: center;
+    
+}
+.nav-btn{
+    width:10%;
+    height:50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: black;
+    margin: 2%;
+    color:white;
+    border-radius: 10px;
+}
+.btn-title{
+    font-size: 0.7em;
+    margin: 3%;
+}
+.BookBtn{
+    width:20px;
+    height:20px;
+    background-color: greenyellow;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin: 1%;
+}
+
+@media (max-width:468px) {
+    .nav{
+      display: none;
+    }
+  .ham-nav{
+    width:100%;
+    height:auto;
+    display: flex;
+    justify-content: space-between ;
+  }
+  .ham-btn{
+    width:40px;
+    height:40px;
+    
+    margin: 2%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   align-items: center;
+  }
+  .ham-line{
+    width:100%;
+    border:1px solid black;
+    margin: 2px;
+  }
+  .Ham-NavLogo{
+    margin: 2%;
+  }
+  .Ham-nav-bar{
+    width:30%;
+    height:200px;
+    /* border:1px solid rgb(0, 0, 0); */
+    position: absolute;
+    left:69%;
+    top:8%;
+    background: rgba(255, 255, 255, 0.1); /* semi-transparent */
+  backdrop-filter: blur(10px); /* this creates the blur effect */
+  -webkit-backdrop-filter: blur(10px); 
+   transition: top 0.4s ease-in-out; /* <== This adds the slide effect */
+  z-index: 1000;
+   
+  }
+  .ham-ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .ham-li{
+    padding: 4%;
+    font-weight: 500;
+    text-align: center;
+  }
+}
